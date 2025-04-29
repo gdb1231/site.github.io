@@ -1,1 +1,28 @@
-testing
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grayson Burke</title>
+</head>
+<body>
+    <!--
+    <a href="/site/image.jpg">
+        <img src="/Users/graysonburke/Desktop/xtra/site/Untitled-1.jpg" alt="Site Image" style="width:100%;height:auto;">
+    </a>
+    -->
+    <header>
+        <h1>Grayson Burke</h1>
+    </header>
+    <main>
+        <p>I'm a writer from Nashville, currently living in the Bay Area. You can find me
+            on <a href="https://outofstamps.substack.com">Substack</a>, where I write
+            personal essays as well as thoughts on movies, photography, household objects, 
+            and other such things.</p>
+        <p>You can reach me at grayson.d.burke@gmail.com.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Grayson Burke</p>
+    </footer>
+</body>
+</html>
