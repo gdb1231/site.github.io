@@ -6,11 +6,11 @@
     <title>Grayson Burke</title>
 </head>
 <body>
-    <!--
+    
     <a href="/site/image.jpg">
-        <img src="/Users/graysonburke/Desktop/xtra/site/Untitled-1.jpg" alt="Site Image" style="width:100%;height:auto;">
+        <img src="Untitled-1.jpg" alt="Site Image" style="width:100%;height:auto;">
     </a>
-    -->
+    
     <header>
         <h1>Grayson Burke</h1>
     </header>
