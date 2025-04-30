@@ -1,31 +1,65 @@
 /* Basic styling for the website */
 
+/* Center everything on the page */
 body {
-    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
     margin: 0;
     padding: 0;
+    font-family: 'thick', sans-serif;
     line-height: 1.6;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+/* Wrapper to align image and text side by side */
+.wrapper {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-top: 20px; /* Move everything closer to the top */
 }
 
-main {
+/* Style for the image */
+.wrapper img {
+    max-width: 400px; /* Make the image slightly bigger */
+    height: auto;
+    margin-right: 20px; /* Add spacing between the image and text */
+}
+
+/* Style for the text container */
+.wrapper .text {
+    text-align: left; /* Align text to the left */
+    flex: 1; /* Allow the text to take up remaining space */
+    padding: 0 20px; /* Add some padding for spacing */
+}
+
+header {
+    font-family: 'thick', sans-serif;
+}
+
+@font-face {
+    font-family: 'thick';
+    src: url('/Users/graysonburke/Desktop/xtra/site copy/GenericG10FRSlim.otf') format('truetype');
+}
+
+/* Center the text and add padding */
+header, main {
+    text-align: left;
     padding: 1rem;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* Add some spacing between the image and text */
+a img {
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 20px; /* Add spacing below the image */
+}
+
+/* Style for the text container */
+header, main {
+    flex: 1; /* Allow the text to take up the remaining space */
 }
 
 a {
@@ -33,6 +67,27 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a.b {
+    color: #8838ff;
+    text-decoration: none;
+}
+
+a.c {
+    color: #ff60f2;
+    text-decoration: none;
+}
+
+a.d {
+    color: #ffb237;
+    text-decoration: none;
+}
+
+a.e {
+    color: #25cc55;
+    text-decoration: none;
+}
+
+a:hover, a.b:hover, a.c:hover, a.d:hover, a.e:hover {
     text-decoration: underline;
 }
+
