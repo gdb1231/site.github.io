@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grayson Burke</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <!--
-    <a href="/site/image.jpg">
-        <img src="Untitled-1.jpg" alt="Site Image" style="width:100%;height:auto;">
-    </a>
-    -->
-    <header>
-        <h1>Grayson Burke</h1>
-    </header>
-    <main>
-        <p>I'm a writer from Nashville, currently living in the Bay Area. You can find me
-            on <a href="https://outofstamps.substack.com">Substack</a>, where I write
-            personal essays as well as thoughts on movies, photography, household objects, 
-            and other such things.</p>
-        <p>You can reach me at grayson.d.burke@gmail.com.</p>
-    </main>
+    <div class="wrapper">
+        <a href="/site/image.jpg">
+            <img src="https://plus.unsplash.com/premium_photo-1675721844807-a3760e14353b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmVydGljYWx8ZW58MHx8MHx8fDA%3D">
+        </a>
+        <div class="text">
+            <header>
+                <h1>Grayson Burke</h1>
+            </header>
+            <main>
+                <p>I'm a writer from Nashville, currently living in the Bay Area.</p>
+                <p>You can find me
+                    on <a href="https://outofstamps.substack.com">Substack</a>, where I write 
+                    <a href="https://outofstamps.substack.com/p/moving-inon" class="b">personal essays</a> as well as thoughts on 
+                    <a href="https://outofstamps.substack.com/p/how-much-beauty-can-a-person-bear" class="c">photography</a>, 
+                    <a href="https://outofstamps.substack.com/p/turning-the-corner" class="d">movies</a>,       
+                    <a href="https://outofstamps.substack.com/p/actually-good-4" class="e">household objects</a>, 
+                    and other such things.</p>
+                <p>You can reach me at grayson.d.burke@gmail.com.</p>
+            </main>
+        </div>
+    </div>
     <footer>
-        <p>&copy; 2025 Grayson Burke</p>
+        <p>&copy; 2025 GB</p>
     </footer>
 </body>
 </html>
