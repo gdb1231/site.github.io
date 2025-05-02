@@ -9,7 +9,7 @@
 <body>
     <div class="wrapper">
         <a href="/site/image.jpg">
-            <img src="./Untitled-1.jpg"> 
+            <img src="images/Untitled-1.jpg"> 
         </a>
         <div class="text">
             <header>
