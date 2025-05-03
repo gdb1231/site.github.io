@@ -41,7 +41,7 @@ header {
 
 @font-face {
     font-family: 'thick';
-    src: url('/Users/graysonburke/Desktop/xtra/site copy/GenericG10FRSlim.otf') format('truetype');
+    src: url('GenericG10FRSlim.otf') format('truetype');
 }
 
 /* Center the text and add padding */
