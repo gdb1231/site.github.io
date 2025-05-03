@@ -91,3 +91,6 @@ a:hover, a.b:hover, a.c:hover, a.d:hover, a.e:hover {
     text-decoration: underline;
 }
 
+footer {
+    font-size: 0.8rem; /* Make the footer text smaller */
+}
