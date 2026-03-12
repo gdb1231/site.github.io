@@ -2,7 +2,7 @@
 
 /* Center everything on the page */
 body {
-    display: flex;
+    display: flex; 
     flex-direction: column; /* Stack items vertically */
     justify-content: center; /* Center items vertically */
     align-items: center; /* Center items horizontally */
