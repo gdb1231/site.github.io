@@ -90,7 +90,17 @@ a.e {
 }
 
 a.f {
+    color: #2100b5;
+    text-decoration: none;
+}
+
+a.g {
     color: #eb4034;
+    text-decoration: none;
+}
+
+a.h {
+    color: #00e0dd;
     text-decoration: none;
 }
 
